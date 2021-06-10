@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        div {
+            width: 90%;
+            height:50px;
+            border: 1px solid black;
+            margin: auto;
+        }
+        button {
+            width:80px;
+            height: 30px;
+            float: right;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+        <button onclick = "log();">Login</button>
+        <button onclick="sign()">Signup</button>
+        <button onclick="ticket()">Ticket</button>
+    </div>
+</body>
+</html>
+<script>
+    function log(){
+        window.location.href = '/home/ram/Desktop/ninjas2/week13/4thSprint/login.html';
+    }
+    function sign() {
+            window.location.href = '/home/ram/Desktop/ninjas2/week13/4thSprint/signup.html';
+        }
+    function ticket() {
+        window.location.href = '/home/ram/Desktop/ninjas2/week13/4thSprint/tickets.html'
+    }
+</script>
